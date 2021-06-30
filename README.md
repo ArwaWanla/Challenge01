@@ -27,6 +27,10 @@ Refactor the if statements to reduce them.
 
 > p.s. your refactored function have to work just like how the old `UpdateQuality()` function was working
 
+
+### Trainee Name:
+
+Arwa Wan La
 ---
 
 
