@@ -1,25 +1,29 @@
 # Challenge 01
 
-## *Step#1*
-
-#### Go to **csharp**  -> **GildedRose.cs** -> `UpdateQuality()` function 
-
-
-## *Step#2*
-
 ### **Challenge Requirement**
 
 #### find the code Smell in the function `UpdateQuality()` and Refactor the function.
-##### your repo should contain a README file and the refactored function.
 
-- README file contains:
 
-Code Smell:
 
-Definition: 
 
-Solution:
+### Code Smell: Duplicate code
 
+
+#### Definition: 
+multiple programmers are working on different parts of the same program at the same time. Since they’re working on different tasks, they may be unaware their colleague has already written similar code that could be repurposed for their own needs.
+
+#### Solution:
+Extract Method. 
+
+
+### Code Smell: if statements
+
+#### Definition: 
+different if statements, many of which check more than one condition
+
+#### Solution:
+Refactor the if statements to reduce them.
 
 > p.s. your refactored function have to work just like how the old `UpdateQuality()` function was working
 
